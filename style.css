@@ -10,10 +10,10 @@
 
 
 header{
-    background-color: #1e3a8a;
+    background: #9dcbff;
     height: 80px;
     width: 100%;
-    color: aliceblue;
+    color: #1e3a8a ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,15 +24,15 @@ body{
     height: 100vh;
     margin: 40px;
     height: 40px;
-    background: #9dcbff;
+    background-color: #1e3a8a;
     border-radius: 40px;
 }
 
 main{
     margin-block:50px;
     margin-inline: 180px;
-    background-color: #1e3a8a;
     border-radius: 20px;
+    background: #9dcbff;
 }
 
 #novo{
@@ -85,7 +85,7 @@ h2{
     padding: 10px;
     margin-left: 15px;
     padding-left: 20px;
-    color: #38bdf8;
+    color: #001986;
     font-weight: 500;
     font-size: 40px;
     justify-content: center;
@@ -96,21 +96,20 @@ h2{
 li{
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
     margin: 20px;
 }
 
 ul{
-    margin-left: 10px;
-    color: azure;
-    font-weight: 200;
+    margin-left: 40px;
+    color: rgb(10, 18, 66);
+    font-weight: 300;
     font-size: 25px;
 }
 
 
 #concluidas,
 #pendentes{
-    border: #0e2360 3px solid;
     border-radius: 10px;
 }
 
@@ -131,7 +130,7 @@ ul{
 ul button{
     width: 35px;
     height: 35px;
-    background-color: #4677ff;
+    background: none;
     border: none;
     border-radius: 8px;
 }
@@ -139,4 +138,9 @@ ul button{
 img{
     width: 30px;
     height:30px;
+}
+
+hr{
+    color: #001986;
+    height: 2px;
 }

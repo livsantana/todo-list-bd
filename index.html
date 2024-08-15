@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>i
     <title>ToDo List</title>
 </head>
 
-<body>
+<body onload="init()">
     <header>
         <h1>
             TODO LIST
@@ -21,57 +22,54 @@
     <main>
         <section id="novo">
             <input type="text" placeholder="Novo item">
-            <button> +                
+            <button onclick="init()"> +
             </button>
         </section>
 
-        <section id="pendentes">
-            <h2>Atividades pendentes</h2>
-            <li id="pendente">
-                <ul> <input type="checkbox"> Atividade 1
-                <button>
-                    <img src="./—Pngtree—pencil line black icon_3746331.png" alt="">
-                </button>
-                <button>
-                    <img src="./—Pngtree—vector trash icon_4152654.png" alt="">
-                </button></ul>
-                <ul> <input type="checkbox"> Atividade 2
-                <button>
-                    <img src="./—Pngtree—pencil line black icon_3746331.png" alt="">
-                </button>
-                <button>
-                    <img src="./—Pngtree—vector trash icon_4152654.png" alt="">
-                </button></ul>
-                <ul> <input type="checkbox"> Atividade 3
-                <button>
-                    <img src="./—Pngtree—pencil line black icon_3746331.png" alt="">
-                </button>
-                <button>
-                    <img src="./—Pngtree—vector trash icon_4152654.png" alt="">
-                </button></ul>
-                <ul> <input type="checkbox"> Atividade 4
-                <button>
-                    <img src="./—Pngtree—pencil line black icon_3746331.png" alt="">
-                </button>
-                <button>
-                    <img src="./—Pngtree—vector trash icon_4152654.png" alt="">
-                </button></ul>
+            <section id="pendentes">
+                <h2>Atividades pendentes</h2>
+                <hr>
+                <li id="pendente">
+                    <ul> <input type="checkbox"> Atividade 1
+                        <button>
+                            <img src="./—Pngtree—pencil line black icon_3746331.png" alt="">
+                        </button>
+                        <button>
+                            <img src="./—Pngtree—vector trash icon_4152654.png" alt="">
+                        </button>
+                    </ul>
+                    <ul> <input type="checkbox"> Atividade 2
+                        <button>
+                            <img src="./—Pngtree—pencil line black icon_3746331.png" alt="">
+                        </button>
+                        <button>
+                            <img src="./—Pngtree—vector trash icon_4152654.png" alt="">
+                        </button>
+                    </ul>
+                    <ul> <input type="checkbox"> Atividade 3
+                        <button>
+                            <img src="./—Pngtree—pencil line black icon_3746331.png" alt="">
+                        </button>
+                        <button>
+                            <img src="./—Pngtree—vector trash icon_4152654.png" alt="">
+                        </button>
+                    </ul>
 
-            </li>
 
-        </section>
+                </li>
 
-        <section id="concluidas">
-            <h2>Atividades concluídas</h2>
-            <li>
-                <ul><input type="checkbox"> Atividade 5</ul>
-                <ul><input type="checkbox"> Atividade 6</ul>
-                <ul><input type="checkbox"> Atividade 7</ul>
-                <ul><input type="checkbox"> Atividade 8</ul>
-            </li>
+            </section>
 
-        </section>
-
+            <section id="concluidas">
+                <h2>Atividades concluídas</h2>
+                <hr>
+                <li>
+                    <ul><input type="checkbox"> Atividade 5</ul>
+                    <ul><input type="checkbox"> Atividade 6</ul>
+                    <ul><input type="checkbox"> Atividade 7</ul>
+                    <ul><input type="checkbox"> Atividade 8</ul>
+                </li>
+            </section>
     </main>
 </body>
 
